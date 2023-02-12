@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #F9C5A7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      header img {
+        width: 45%;
+        height: auto;
+      }
+      .menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+      .left,
+      .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+      }
+      .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+      }
+      .button {
+        margin: 10px 0;
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 1px solid #333;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .icon {
+        width: 25px;
+        height: 25px;
+        background-image: url(https://www.freepnglogos.com/uploads/spotify-logo-png/file-spotify-logo-png-4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 12.5px;
+        margin: 0 10px;
+      }
+      .middle .icon:nth-child(2) {
+        background-image: url(https://anuies-tic.anuies.mx/web/wp-content/uploads/2021/04/logo-youtube-png-clipart-11-300x300-1.png);
+      }
+      .middle .icon:nth-child(3) {
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="https://i.imgur.com/kSz4dDM.png" alt="Header Image">
+    </header>
+    <nav class="menu">
+      <div class="left">
+        <button class="button">Música</button>
+        <button class="button">Video</button>
+      </div>
+      <div class="middle">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+      </div>
+      <div class="right">
+        <button class="button">Contacto</button>
+        <button class="button">La Casastudio</button>
+      </div>
+    </nav>
+  </body>
+</html>
